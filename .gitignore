@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+.turbo/
+
+# Rust
+target/
+Cargo.lock
+**/*.rs.bk
+
+# Foundry
+cache/
+contracts/out/
+contracts/cache/
+contracts/broadcast/
+
+# Environment variables
+.env
+.env*.local
+.env.production
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Testing
+coverage/
+
+# Celestia
+da-layer/celestia-node/data/
+
+# Terraform
+infra/terraform/.terraform/
+infra/terraform/*.tfstate
+infra/terraform/*.tfstate.backup
+infra/terraform/.terraform.lock.hcl
+
+# Docker
+*.log
